@@ -1,24 +1,27 @@
 # KAKING Reward Card Validation Website
 
-A GitHub Pages-ready static website for validating a KAKING BARATO Reward Card as **Valid & Active**.
+This version has **no assets folder**. All files are placed in one root folder so you can upload them directly to GitHub.
 
-## Included Files
+## Files to Upload
+
+Upload all of these files directly into your GitHub repository:
 
 ```text
 index.html
 style.css
 app.js
-assets/
-  company-logo.png
-  favicon.png
-  reward-card-front.png
-  reward-card-back.png
+README.md
+company-logo.png
+favicon.png
+reward-card-front.png
+reward-card-back.png
+sample-customer.png
 ```
 
-## How to Upload to GitHub
+## GitHub Pages Setup
 
 1. Create a new GitHub repository.
-2. Upload all files from this folder.
+2. Upload all files listed above directly into the repository.
 3. Go to **Settings** → **Pages**.
 4. Under **Build and deployment**, choose:
    - Source: **Deploy from a branch**
@@ -27,24 +30,9 @@ assets/
 5. Save.
 6. Wait 1–3 minutes, then open your GitHub Pages link.
 
-## How to Edit the Card Details
+## Current Details
 
-Open `index.html` and edit these values:
-
-- Card Type
-- Member ID
-- Member Since
-- Valid Thru
-- Benefits / Rules
-
-The verification date updates automatically using `app.js`.
-
-
-## Logo
-
-The website now uses the official KAKING company logo uploaded by the user.
-
-
-## Customer Profile
-
-The page now includes the sample customer name and customer photo shown on the validation page.
+- Customer Name: SAMPLE CUSTOMER
+- Card Status: Valid & Active
+- Card Type: BARATO Reward Card
+- Member ID: 2500 1234 5678

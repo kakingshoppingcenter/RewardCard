@@ -21,8 +21,8 @@ toggleButton.addEventListener("click", () => {
 
   setTimeout(() => {
     cardImage.src = showingBack
-      ? "assets/reward-card-back.png"
-      : "assets/reward-card-front.png";
+      ? "reward-card-back.png"
+      : "reward-card-front.png";
 
     cardImage.alt = showingBack
       ? "KAKING BARATO Reward Card back preview"
