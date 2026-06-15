@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KAKING Reward Card Validation</title>
+  <meta name="description" content="Official KAKING Shopping Center Reward Card validation page." />
+  <link rel="icon" href="assets/favicon.png" type="image/png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="page-shell">
+    <section class="hero-card" aria-labelledby="page-title">
+      <div class="brand-bar">
+        <div class="brand-mark" aria-hidden="true">
+          <img src="assets/company-logo.png" alt="KAKING Shopping Center logo" />
+        </div>
+        <div>
+          <p class="eyebrow">KAKING Shopping Center</p>
+          <h1 id="page-title">Reward Card Validation</h1>
+        </div>
+      </div>
+
+      <div class="status-panel valid" role="status" aria-live="polite">
+        <div class="status-icon" aria-hidden="true">✓</div>
+        <div>
+          <p class="status-label">Card Status</p>
+          <h2>Valid &amp; Active</h2>
+          <p class="status-copy">This reward card is currently verified and active in the KAKING membership record.</p>
+        </div>
+      </div>
+
+      
+        <section class="customer-profile" aria-labelledby="customerProfileTitle">
+          <div class="customer-photo-wrap">
+            <img class="customer-photo" src="assets/sample-customer.png" alt="Sample customer profile photo" />
+            <span class="customer-badge">Active Member</span>
+          </div>
+          <div class="customer-info">
+            <p class="mini-label">Customer Name</p>
+            <h3 id="customerProfileTitle">SAMPLE CUSTOMER</h3>
+            <p class="customer-copy">This member profile matches the active reward card record shown on this page.</p>
+          </div>
+        </section>
+
+
+      <div class="content-grid">
+        <section class="details-card">
+          <h3>Membership Details</h3>
+
+          <div class="detail-row">
+            <span>Card Type</span>
+            <strong>BARATO Reward Card</strong>
+          </div>
+          <div class="detail-row">
+            <span>Member ID</span>
+            <strong>2500 1234 5678</strong>
+          </div>
+          <div class="detail-row">
+            <span>Member Since</span>
+            <strong>05/2025</strong>
+          </div>
+          <div class="detail-row">
+            <span>Valid Thru</span>
+            <strong>05/2027</strong>
+          </div>
+          <div class="detail-row">
+            <span>Verification Date</span>
+            <strong id="verificationDate">Today</strong>
+          </div>
+
+          <div class="notice">
+            <strong>Official Note:</strong>
+            The physical card must match the member ID shown here. Please report lost or suspicious cards immediately.
+          </div>
+        </section>
+
+        <section class="card-preview" aria-labelledby="preview-title">
+          <div class="preview-header">
+            <h3 id="preview-title">Card Preview</h3>
+            <button class="ghost-button" id="toggleCard" type="button">Show Back</button>
+          </div>
+          <div class="card-frame">
+            <img id="cardImage" src="assets/reward-card-front.png" alt="KAKING BARATO Reward Card front preview" />
+          </div>
+        </section>
+      </div>
+
+      <section class="benefits" aria-label="Reward card benefits">
+        <article>
+          <span>01</span>
+          <h4>Earn Points</h4>
+          <p>Earn 1 point for every 800 PHP spent.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h4>Double Points</h4>
+          <p>Double points every 6th of the month and public holidays.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h4>All Stores</h4>
+          <p>Valid at all KAKING chain stores and locations.</p>
+        </article>
+        <article>
+          <span>04</span>
+          <h4>Referral Bonus</h4>
+          <p>Get 99 bonus points for referring new members.</p>
+        </article>
+      </section>
+    </section>
+
+    <footer>
+      <p>© <span id="year"></span> KAKING Shopping Center. Membership validation page.</p>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
